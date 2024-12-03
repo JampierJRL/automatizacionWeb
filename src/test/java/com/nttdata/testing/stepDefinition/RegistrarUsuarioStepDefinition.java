@@ -53,4 +53,9 @@ public class RegistrarUsuarioStepDefinition {
         theActorInTheSpotlight().attemptsTo(RegistrarUsuario.withData(usuario, password));
 
     }
+
+
+    @Given("el usuario esta en la pagina de inicio para registrarse")
+    public void elUsuarioEstaEnLaPaginaDeInicioParaRegistrarse() {
+    }
 }
